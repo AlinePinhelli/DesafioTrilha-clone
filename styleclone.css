@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Montserrat&family=Source+Sans+Pro:wght@200;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+  *{
+      margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.cabecalho{
+    border-top-style: solid;
+    border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+    position: relative;
+    padding: 8px 0;
+    border-width: 10px 0 0;
+    border-top-style: solid;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 130px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.elementos-cabecalho1{
+   
+    width: 95%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    color: #3a3939;
+}
+
+.coracao_header {
+    width: 50px;
+    height: 50px;
+    margin-right: 0%;
+}
+
+.nomeprincipal{
+
+    margin-top: 15px;
+    margin-left: 0%;
+    margin-right: 49%;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif; 
+    color: #3a3939;
+
+}
+.cabecalho2{
+    width: 95%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin:auto 
+}
+.logoap{
+    width: 60px;
+}
+.linkcab1{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    color: #3a3939;
+}
+ul{
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif; 
+    color: #3a3939;
+    font-weight: bold;
+    font-size: 15px;  
+}
+nav a:hover{
+     color: #c719be;
+    text-decoration: none;    
+}
+.linkcab2 {
+    width: 250px;
+    display: flex;  
+    align-items: center;
+    margin-top: 15px;
+    justify-content: space-around;
+   
+ 
+}
+
+.label-pesquisa {
+   
+    margin-left: 5px;
+    background-color: #f1eeee;
+    height: 15px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 0 solid #f1eeee;
+    padding: 20px 0 20px 20px; 
+}
+
+.input-pesquisa {
+    padding-left: 20px;
+    background-color:#f1eeee;
+    border: none;
+    width: 100%;
+    
+   
+}
+.botaoSearch { 
+    
+    box-sizing: border-box;
+    border: 2px solid #3a3939;
+    border-radius: 2px;
+    background-color:   #202020;
+ 	text-align: center;
+    color: #f7f7f7;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: bold;
+    font-size: 15px;  
+    
+    
+}
+
+
+
+.botaosignup {
+    margin-left:5px;
+    margin-right: 20px;
+    border: 1px solid rgb(196, 192, 192);
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+main{
+    height: 1450px;
+    width: 100%;
+    background-image: url(polotno-1.png);
+}
+.texto-main {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;  
+    align-items: center;
+      
+}
+.tituloprincipal {
+    align-items: center;
+    font-size: 80px;
+    margin-top: 120px; 
+    font-weight: bold;
+
+}
+.paragrafo1 {
+    align-items: center;
+    font-size: 16px;
+    width: 480px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 200;
+    margin-top: -10px; 
+}
+.texto-dois{
+    width: 550px;
+    margin: auto;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.titulo-dois{
+    font-size: 35px;
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 600;
+    
+}
+.paragrafo-dois {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 400;
+    
+
+}
+.botoes-main{
+    width: 600px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 75px;
+    align-items: center;
+
+}
+.botao-amarelo{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    border: black;
+    border: 1px solid rgb(253, 175, 29);
+    padding: 15px;
+    border-radius: 45px;
+    background-color: rgb(253, 175, 29);
+    padding-left: 50px;
+    padding-right: 50px;
+	transition: 400ms;
+	box-shadow: 5px 20px 150px 5px #000000; 
+}
+.botao-vermelho{
+    color: white;
+    text-decoration: none;
+    border: black;
+    border: 1px solid rgb(255, 253, 253);
+    padding: 15px;
+    border-radius: 45px;
+    background-color: rgb(177, 60, 60);
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.section{
+    align-items: center;
+    background-color: #ffffff;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    height: 700px;
+}
+.imagemdomeio{
+    margin: 30px auto 0 auto;
+    align-items: center;
+    margin-top: 60px;
+}
+.titulodomeio{
+    width: 500px;
+    text-align: center;
+    margin: 20px auto 0px auto;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;  
+    color: #3a3939;
+    font-weight: 600;
+
+}
+.textodomeio{
+    width: 500px;
+    text-align: center;
+    margin: 40px auto 0px auto ;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #3a3939;
+    font-weight: 400;
+}
+footer {
+    background-color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #3a3939;
+    height: 300px;
+    width: auto;
+
+}
+.container-geral-footer{
+
+    font-size: 20px;
+    text-decoration: none; 
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 80%;
+    height: 300px;
+    margin-top: 5%;
+}
+
+.iconesfooter {
+
+    margin: 30px 0 0 2%;
+    width: 50px;
+    display: flex;	
+
+}
+.container-footer {
+    
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+}
+.linkfooter {
+    text-decoration: none;
+    line-height:2;
+
+}
+.imagem-footer{
+    height: 10px;
+    width: 100%;
+    display: block;
+     
+}
+/* responsivo para Iphone SE*/
+
+@media screen and (max-width:375px) {
+   .nomeprincipal, .coracao_header{
+    display: none;
+   }
+   .elementos-cabecalho1{
+    height: 25%;
+   }
+   .cabecalho{
+    height:150px;
+   }
+   nav a{
+    font-size: 14px;
+   }
+   .linkcab1{
+    width: 100%;
+    align-items: center;
+    margin-top: 0%;
+   }
+   .cabecalho2{
+    width: 100%;
+    height: 75%;
+    flex-wrap:wrap-reverse;
+    align-items: center;
+
+    
+    }
+    hr{
+        
+       }
+      .botaodepesquisa, .botaosignup ,.botaoSearch {
+       
+        padding: 10px;
+
+       
+       }
+       .label-pesquisa{
+        width: 100%;
+        padding: 15px 0 15px 15px;
+        
+      
+        
+       }
+       .input-pesquisa{
+        width: 100%;
+        padding: 15px 0 15px 15px;
+
+       }
+       .logoap{
+        margin-top: -160px;
+        margin-left: 15px;
+        
+    
+        
+       }
+       .label-pesquisa{
+        width: 50%;
+       }
+       .label-pesquisa {
+        width: 80%;
+        margin: auto;
+       
+       }
+       .linkcab2{
+      
+        width: 100%;
+        margin-left: 50px;
+        align-items: center;
+        
+        justify-content: flex-end;
+        
+       }
+       
+       main{
+        width: auto;
+        
+        
+       }
+       .tituloprincipal{
+        font-size: 50px;
+
+       }
+       .paragrafo1{
+     
+        width:auto;
+        
+       }
+       .texto-dois, .titulo-dois, .paragrafo-dois,{
+        width: auto;
+        margin: 20px;
+
+        
+       }
+       .titulo-dois{
+        font-size: 25px;
+       }
+       .botoes-main{
+        width:auto;
+        flex-wrap: wrap;
+        height: 130px;
+        padding: 10px;
+        
+        
+       }
+        .botao-amarelo,.botao-vermelho{
+            padding-left: 100px;
+            padding-right: 100px;
+            
+
+        }  
+        .botao-vermelho{
+            margin-top: 20px;
+        } 
+        .titulodomeio{
+            font-size: 26px;
+            text-align: center;
+            width: auto;
+        }
+        .textodomeio{
+            font-size: 14px;
+            width: auto;
+            margin: 20px;
+
+
+        }
+       
+        footer{
+            width: auto;
+            
+        }
+        .iconesfooter{
+            width: 80px;
+          
+        }
+        .container-geral-footer{
+            
+            flex-wrap: wrap;
+            margin: auto;
+            
+        }
+        .container-footer{
+
+            justify-content:left;
+            flex-wrap: wrap;
+            width:auto;
+            margin: 50px 50px 0 0;
+            
+        }
+        .imagem-footer{
+            margin-top: 650px;
+        }
+
+   }
+
+
+
