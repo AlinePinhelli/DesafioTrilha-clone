@@ -335,10 +335,8 @@ footer {
     flex-wrap:wrap-reverse;
     align-items: center;
 
-    
     }
    
-       
       .botaodepesquisa, .botaosignup ,.botaoSearch {
        
         padding: 10px;
@@ -348,9 +346,7 @@ footer {
        .label-pesquisa{
         width: 100%;
         padding: 15px 0 15px 15px;
-        
-      
-        
+          
        }
        .input-pesquisa{
         width: 100%;
