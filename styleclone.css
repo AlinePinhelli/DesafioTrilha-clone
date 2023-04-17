@@ -182,7 +182,7 @@ main{
 }
 
 .titulo-dois{
-    font-size: 35px;
+    font-size: 1.5rem;
     margin-top: 5px;
     font-family: 'Montserrat', sans-serif;  
     font-weight: 600;
@@ -311,7 +311,7 @@ footer {
 }
 /* responsivo para Iphone SE*/
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:720px) {
    .nomeprincipal, .coracao_header{
     display: none;
    }
@@ -397,7 +397,7 @@ footer {
         width:auto;
         
        }
-       .texto-dois, .titulo-dois, .paragrafo-dois,{
+       .texto-dois, .titulo-dois, .paragrafo-dois{
         width: auto;
         margin: 20px;
 
@@ -446,12 +446,12 @@ footer {
         }
         .container-geral-footer{
             
-            flex-wrap: wrap;
+           flex-direction: column;
             margin: auto;
             
         }
         .container-footer{
-
+            flex-direction: column;
             justify-content:left;
             flex-wrap: wrap;
             width:auto;
