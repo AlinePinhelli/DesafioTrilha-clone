@@ -309,7 +309,7 @@ footer {
     display: block;
      
 }
-/* responsivo para Iphone SE*/
+/* responsivo */
 
 @media screen and (max-width:720px) {
    .nomeprincipal, .coracao_header{
@@ -337,9 +337,8 @@ footer {
 
     
     }
-    hr{
-        
-       }
+   
+       
       .botaodepesquisa, .botaosignup ,.botaoSearch {
        
         padding: 10px;
@@ -359,8 +358,7 @@ footer {
 
        }
        .logoap{
-        margin-top: -160px;
-        margin-left: 15px;
+        margin-top:-9.85rem;
         
     
         
@@ -432,8 +430,6 @@ footer {
             font-size: 14px;
             width: auto;
             margin: 20px;
-
-
         }
        
         footer{
